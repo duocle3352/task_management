@@ -1,0 +1,13 @@
+.slogan {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+@media (min-width: 640px) {
+  .slogan {
+    font-size: 5.6rem;
+    line-height: 7rem;
+  }
+}

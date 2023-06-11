@@ -1,0 +1,46 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --primary-color: #3754db;
+  --text-color: #16171d;
+  --green-color: #00c271;
+  --green-color-blur: #f0fff9;
+  --red-color: #b80020;
+  --red-color-blur: #fff0f0;
+  --gray-color: #808080;
+  --yellow-color: #fbbe37;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  line-height: 24px;
+  font-weight: 400;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+  user-select: none;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

@@ -2,7 +2,9 @@ const routes = {
   home: '/',
   login: '/login',
   register: '/register',
-  profile: '/profile'
+  profile: '/profile',
+  task: '/task',
+  setting: '/setting'
 } as const
 
 export default routes

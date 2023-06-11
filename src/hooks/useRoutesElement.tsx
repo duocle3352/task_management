@@ -8,6 +8,8 @@ import { Login } from '~/pages/Login'
 import { Register } from '~/pages/Register'
 import { Home } from '~/pages/Home'
 import { Profile } from '~/pages/Profile'
+import { Task } from '~/pages/Task'
+import { Setting } from '~/pages/Setting'
 
 const ProtectedRoute = () => {
   const isAuthenticated: boolean = useSelector((state: RootState) => state.authenticate.isAuthenticated)
@@ -39,6 +41,22 @@ const useRoutesElement = () => {
           element: (
             <DefaultLayout>
               <Profile />
+            </DefaultLayout>
+          )
+        },
+        {
+          path: routes.task,
+          element: (
+            <DefaultLayout>
+              <Task />
+            </DefaultLayout>
+          )
+        },
+        {
+          path: routes.setting,
+          element: (
+            <DefaultLayout>
+              <Setting />
             </DefaultLayout>
           )
         }

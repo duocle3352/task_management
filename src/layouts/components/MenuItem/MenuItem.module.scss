@@ -1,0 +1,32 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  height: 48px;
+  color: var(--gray-color);
+  padding: 0 10px;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    color: var(--primary-color);
+  }
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.link.active {
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  border-radius: 12px;
+
+  svg {
+    color: currentColor;
+  }
+}

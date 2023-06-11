@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import './Grid.scss';
 
 :root {
   --font-family: 'Roboto', sans-serif;
@@ -34,7 +35,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 

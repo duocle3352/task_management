@@ -1,0 +1,42 @@
+.wrapper {
+  width: 404px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.content {
+  flex: 1;
+}
+
+.textarea {
+  min-height: 120px;
+  max-width: 100%;
+  min-width: 50%;
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 10px 16px;
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  outline: none;
+  overflow: hidden;
+}
+
+.submit-btn {
+  text-align: center;
+}
+
+@media (max-width: 639px) {
+  .wrapper {
+    width: 100%;
+  }
+}

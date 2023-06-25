@@ -7,13 +7,15 @@
   --font-family: 'Roboto', sans-serif;
   --font-playfair-display: 'Playfair Display', serif;
   --primary-color: #3754db;
+  --blue-color-blur: #f2f4fd;
   --text-color: #16171d;
   --green-color: #00c271;
   --green-color-blur: #f0fff9;
   --red-color: #b80020;
   --red-color-blur: #fff0f0;
-  --gray-color: #808080;
   --yellow-color: #fbbe37;
+  --yellow-color-blur: #fffdf5;
+  --gray-color: #808080;
 }
 
 * {
@@ -46,4 +48,17 @@ button {
   outline: none;
   border: none;
   background-color: transparent;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

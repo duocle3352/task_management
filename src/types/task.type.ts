@@ -5,7 +5,7 @@ interface TaskType {
   name: string
   desc: string
   priority: 'low' | 'medium' | 'hight' | 'urgent'
-  status: 'pending' | 'in progress' | 'Completed'
+  status: 'pending' | 'in progress' | 'completed'
 }
 
 export default TaskType

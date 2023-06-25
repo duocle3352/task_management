@@ -1,0 +1,39 @@
+.wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+}
+
+.inner {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 24px;
+}
+
+.bottom-content {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+@media (max-width: 639px) {
+  .bottom-content {
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0px 0px 20px 0px var(--primary-color);
+  }
+}

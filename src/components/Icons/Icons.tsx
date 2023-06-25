@@ -175,6 +175,15 @@ export const RightArrowIcon = ({ className }: Props) => (
   </svg>
 )
 
+export const LeftArrowIcon = ({ className }: Props) => (
+  <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' className={className}>
+    <path
+      d='M13.1634 11.6393L13.165 11.9934C13.165 13.465 13.0788 14.8067 12.949 15.6813L12.8352 16.2252C12.772 16.5132 12.6888 16.8412 12.6021 17.0086C12.2846 17.6211 11.6639 18 10.9995 18H10.9417C10.5086 17.9857 9.59883 17.6057 9.59883 17.5924C8.13485 16.9782 5.31046 15.1243 4.006 13.8026L3.62693 13.4058C3.52766 13.2983 3.41614 13.171 3.3469 13.0718C3.11563 12.7656 3 12.3866 3 12.0077C3 11.5847 3.12982 11.1915 3.37527 10.8698L3.76473 10.4495L3.85199 10.3598C5.03561 9.07656 8.12612 6.97815 9.74283 6.33596L9.98692 6.24242C10.2806 6.13714 10.6922 6.01157 10.9417 6C11.2592 6 11.5624 6.0738 11.8515 6.2192C12.2126 6.42299 12.5006 6.74463 12.6599 7.12355C12.7613 7.38572 12.9206 8.17331 12.9206 8.18763C13.0666 8.98174 13.1513 10.2348 13.1634 11.6393ZM21 12.0004C21 12.8387 20.3269 13.5183 19.4967 13.5183L15.7975 13.1912C15.1463 13.1912 14.6183 12.6581 14.6183 12.0004C14.6183 11.3417 15.1463 10.8097 15.7975 10.8097L19.4967 10.4825C20.3269 10.4825 21 11.1622 21 12.0004Z'
+      fill='currentColor'
+    />
+  </svg>
+)
+
 export const OnboardingIcon = () => (
   <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
     <g clipPath='url(#clip0_2_9700)'>
@@ -332,5 +341,106 @@ export const WorkSpaceIcon = () => (
         <rect width='24' height='24' fill='white' />
       </clipPath>
     </defs>
+  </svg>
+)
+
+export const ChevronDownIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
+  </svg>
+)
+
+export const ChevronRightIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path strokeLinecap='round' strokeLinejoin='round' d='M8.25 4.5l7.5 7.5-7.5 7.5' />
+  </svg>
+)
+
+export const ChevRonDoubleDownIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5' />
+  </svg>
+)
+
+export const ChevRonDoubleUpIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path strokeLinecap='round' strokeLinejoin='round' d='M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5' />
+  </svg>
+)
+
+export const ExclamationIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      d='M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z'
+    />
+  </svg>
+)
+
+export const CalendarDaysIcon = ({ className }: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    strokeWidth={1.5}
+    stroke='currentColor'
+    className={className}
+  >
+    <path
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z'
+    />
+  </svg>
+)
+
+export const LoadingIcon = ({ className }: Props) => (
+  <svg
+    stroke='currentColor'
+    fill='currentColor'
+    strokeWidth='0'
+    viewBox='0 0 1024 1024'
+    height='1em'
+    width='1em'
+    className={`animate-spin ${className}`}
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <path d='M512 1024c-69.1 0-136.2-13.5-199.3-40.2C251.7 958 197 921 150 874c-47-47-84-101.7-109.8-162.7C13.5 648.2 0 581.1 0 512c0-19.9 16.1-36 36-36s36 16.1 36 36c0 59.4 11.6 117 34.6 171.3 22.2 52.4 53.9 99.5 94.3 139.9 40.4 40.4 87.5 72.2 139.9 94.3C395 940.4 452.6 952 512 952c59.4 0 117-11.6 171.3-34.6 52.4-22.2 99.5-53.9 139.9-94.3 40.4-40.4 72.2-87.5 94.3-139.9C940.4 629 952 571.4 952 512c0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 0 0-94.3-139.9 437.71 437.71 0 0 0-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.2C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3s-13.5 136.2-40.2 199.3C958 772.3 921 827 874 874c-47 47-101.8 83.9-162.7 109.7-63.1 26.8-130.2 40.3-199.3 40.3z'></path>
   </svg>
 )

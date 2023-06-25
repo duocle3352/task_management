@@ -16,3 +16,8 @@ export const authSchema = yup.object({
 export const loginSchema = authSchema.pick(['email', 'password'])
 export type AuthSchemaType = yup.InferType<typeof authSchema>
 export type LoginSchemaType = yup.InferType<typeof loginSchema>
+
+export const TaskSchema = yup.object({
+  name: yup.string().required('Task name is required!'),
+  desc: yup.string()
+})
